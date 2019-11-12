@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'landingreport';
+
+  constructor() {}
+
+  goHome() {
+    console.log('going home');
+  }
 }

@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body {
+  font-family: sans-serif;
+}
+nav {
+  border-bottom: 1px solid #ccc;
+  padding: 0.4em 0;
+  margin: 0.5em 0;
+}
+.active {
+  background: #333;
+}
